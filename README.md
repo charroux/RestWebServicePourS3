@@ -14,7 +14,7 @@ Gradle (utilisé pour builder le projet) : version binary :
   -  positionner variable environnement path : y ajouter le chemin vers le dossier bin de Gradle
 
 
-2/ Utilisation
+2/ Utilisation de cette application
 
 Télécharger le zip de ce projet ici (de github)
 
