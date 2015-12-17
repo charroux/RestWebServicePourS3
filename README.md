@@ -6,7 +6,13 @@ Java (JDK recommandée)
 
 Eclipse JEE Developper : uniquement décompresser
 
-Tomcat (version 7 binary) : uniquement décompresser
+Tomcat (version 7 binary) : 
+  - http://tomcat.apache.org/
+  - Télécharger version binaire Tomcat 7
+  - Décompresser
+
+Intégrer Tomcat dans Eclipse :
+  - Menu Window -> preferences -> Server -> Runtime environment -> Add puis aller chercher le dossier Tomcac
 
 Gradle (utilisé pour builder le projet) : version binary :
 
@@ -26,7 +32,7 @@ Convertir projet en projet Eclipse : gradle eclipse
 
 Importer le projet sous Eclipse : menu File -> Import -> Existing project into workspace
 
-
+Lancer l'application : clic droit sur l'application -> Run As -> Run on server ...
 3/ L'application de location de voiture 
 
 - obtenir la liste des voitures à louer
