@@ -15,7 +15,7 @@ Intégrer Tomcat dans Eclipse :
   - Menu Window -> preferences -> Server -> Runtime environment -> Add puis aller chercher le dossier Tomcac
 
 Gradle (utilisé pour builder le projet) : version binary :
-
+  - Télécharger et procédure d'installation sur http://gradle.org/
   -  décompresser
   -  positionner variable environnement path : y ajouter le chemin vers le dossier bin de Gradle
 
