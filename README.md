@@ -26,11 +26,13 @@ Télécharger le zip de ce projet ici (de github)
 
 Décompresser
 
-Builder : commande : gradle build
+Builder le projet via la commande : gradle build
 
-Convertir projet en projet Eclipse : gradle eclipse
+Tester le projet avec le serveur web jetty via la commande : gradle jettyRunWar
 
-Importer le projet sous Eclipse : menu File -> Import -> Existing project into workspace
+Optionnellement : convertir projet en projet Eclipse : gradle eclipse
+
+  puis importer le projet sous Eclipse : menu File -> Import -> Existing project into workspace
 
 Lancer l'application : clic droit sur l'application -> Run As -> Run on server ...
 3/ L'application de location de voiture 
