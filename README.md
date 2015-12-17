@@ -21,6 +21,7 @@ Télécharger le zip de ce projet ici (de github)
 Décompresser
 
 Builder : commande : gradle build
+
 Conertir projet en projet Eclipse : gradle eclipse
 
 Importer le projet sous Eclipse : menu File -> Import -> Existing project into workspace
