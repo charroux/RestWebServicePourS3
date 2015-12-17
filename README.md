@@ -22,7 +22,7 @@ Décompresser
 
 Builder : commande : gradle build
 
-Conertir projet en projet Eclipse : gradle eclipse
+Convertir projet en projet Eclipse : gradle eclipse
 
 Importer le projet sous Eclipse : menu File -> Import -> Existing project into workspace
 
@@ -49,6 +49,6 @@ Structure de données JSON d'une voiture :
 
   HTTP PUT sur l'URI ? site.../car/11AA22?louer=true
   
-- ramener une voiture
+- retour location d'une voiture
 
   HTTP PUT sur l'URI ? site.../car/11AA22?louer=false
