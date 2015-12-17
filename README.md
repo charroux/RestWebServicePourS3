@@ -25,3 +25,30 @@ Builder : commande : gradle build
 Conertir projet en projet Eclipse : gradle eclipse
 
 Importer le projet sous Eclipse : menu File -> Import -> Existing project into workspace
+
+
+3/ L'application de location de voiture 
+
+- obtenir la liste des voitures à louer
+- obtenir les informations sur une voiture
+- louer une voiture
+- ramener une voiture
+
+Structure de données JSON d'une voiture :
+{"pladeImmatriculation","11AA22"}
+
+- Obtenir la liste des voitures à louer (tableau JSon) :
+
+  HTTP GET sur l'URI ? site.../car
+  
+- obtenir les informations sur une voiture :
+
+  HTTP GET sur l'URI ? site.../car/11AA22
+  
+- louer une voiture
+
+  HTTP PUT sur l'URI ? site.../car/11AA22?louer=true
+  
+- ramener une voiture
+
+  HTTP PUT sur l'URI ? site.../car/11AA22?louer=false
