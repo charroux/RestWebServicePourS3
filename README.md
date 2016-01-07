@@ -6,10 +6,16 @@ Java (JDK recommandée)
 
 Eclipse JEE Developper : uniquement décompresser
 
-Tomcat (version 7 binary) : uniquement décompresser
+Tomcat (version 7 binary) : 
+  - http://tomcat.apache.org/
+  - Télécharger version binaire Tomcat 7
+  - Décompresser
+
+Intégrer Tomcat dans Eclipse :
+  - Menu Window -> preferences -> Server -> Runtime environment -> Add puis aller chercher le dossier Tomcac
 
 Gradle (utilisé pour builder le projet) : version binary :
-
+  - Télécharger et procédure d'installation sur http://gradle.org/
   -  décompresser
   -  positionner variable environnement path : y ajouter le chemin vers le dossier bin de Gradle
 
@@ -20,13 +26,15 @@ Télécharger le zip de ce projet ici (de github)
 
 Décompresser
 
-Builder : commande : gradle build
+Builder le projet via la commande : gradle build
 
-Convertir projet en projet Eclipse : gradle eclipse
+Tester le projet avec le serveur web jetty via la commande : gradle jettyRunWar
 
-Importer le projet sous Eclipse : menu File -> Import -> Existing project into workspace
+Optionnellement : convertir projet en projet Eclipse : gradle eclipse
 
+  puis importer le projet sous Eclipse : menu File -> Import -> Existing project into workspace
 
+Lancer l'application : clic droit sur l'application -> Run As -> Run on server ...
 3/ L'application de location de voiture 
 
 - obtenir la liste des voitures à louer
